@@ -1,0 +1,225 @@
+body { 
+	width:100%;
+	margin:auto;
+	min-width:640px; 
+	max-width:2560px;     
+	background-color:white;   
+}
+p, h3 {
+	margin:0;     
+}
+.niño h3, .niña h3, .outlet h3, .aviso h3 {
+	font-size:25px; 
+	background-color:white;	
+	padding:10px; 
+	text-align:center;
+	float:left;
+}
+.niño h3 {	    	
+	color: #338DFF;	
+    border: #4AA7FF 5px inset;	
+	margin-left:14em;
+}
+.niña h3 {	    
+	color: #F96EF5;		
+    border: #F9BEF7 5px inset;
+	margin-top:1em;
+	margin-left:14em;
+	padding:10px;  
+	text-align:center;
+	float:left;
+}
+.outlet h3 {	    
+	color:green;		
+    border:green 5px dotted;
+	margin-top:1em;		
+}
+.aviso h3 {	
+    font-size:30px;  
+    background-color:yellow;	   
+	color:red;		
+    border:red 5px solid;
+	margin:2em;
+	margin-left:9em;
+}
+h2 {	
+	font-size:30px; 
+	color: white;
+	text-shadow: -3px -3px 3px black;
+	background-color:#FF8833;
+    border: white 5px double;
+	padding:10px;  
+}
+ul {     
+	list-style-type:none;
+	margin:0;
+	padding:0;  
+	padding-top:3px;
+	width:100%; 
+	display:inline-table;  
+}
+li { 
+	font-weight:bold;
+	font-size:30px;
+	display:inline;    
+}
+header, footer { 
+	text-align:center;    
+	background-image: linear-gradient(to bottom, gray, #3F3E3D);
+	clear:both;      
+}
+header {	
+	width:100%;
+	margin:auto;
+	position: fixed;
+}
+header .menu a:link {   
+	font-family: candara; 
+	font-size:25px; 
+	border-radius: 40px 10px;     
+	float:left;   
+	width:19.87%; 
+	background-image: linear-gradient(to bottom left, #F3ECE7, red); 
+	padding-left:0em;
+	padding-right:0em;   
+	text-decoration:none;  
+    color:black;    
+}
+header .menu a:hover {
+    background-image: linear-gradient(to bottom left, white, brown);
+    color:white;   
+}
+#linea_vertical {
+	float:right;   	
+	border-left:1px solid grey;
+    width:100%;	
+}
+section {	  
+    display: table-cell;  						    
+    padding:1em;
+	padding-top:30px;
+    text-align:left;      
+    clear:right; 
+	width:25%;
+	background-image:#FAFAFA; 
+} 
+section p {	
+    float:left; 
+	margin-left:7em; 	
+}
+.niño p, .niña p {
+	margin-left:12em;
+}
+section img {   
+    float:left;
+	padding-left:5em; 	
+}
+.calzado_hombre {
+	width:70%;
+	margin-right:2em; 
+	margin-bottom:1em; 		   
+    padding-bottom:1em; 
+    text-align:center;
+}
+.calzado_mujer {
+	width:65%;
+	padding-top:1em; 
+}
+.calzado_niño {
+	width:70%;
+	margin-left:3em;
+}
+.calzado_niño1 {
+	width:40%;
+	margin-left:10em;		
+}
+.calzado_niño2 {
+	width:47%;
+	margin-top:1em;
+	margin-left:9em;
+}
+.calzado_niño3 {
+	width:45%;
+	margin-left:9em;
+}
+.calzado_niña {
+	width:55%;
+	margin-left:6em;
+}
+.calzado_niña1 {
+	width:45%;
+	margin-left:9em;
+}
+.calzado_niña2, .calzado_niña3 {
+	width:40%;
+	margin-left:9em;
+}
+.calzado_outlet {
+	width:18%;		
+}
+.logo {
+	width:30%;	
+}
+.logo_outlet {
+	width:25%; 
+	margin-left:14em;	
+}
+table .tabla{
+    width: 20%;
+    display: inline;
+    text-align: left;
+	padding-left:5em; 	
+}
+footer {
+    width: 98.2%;
+    height: 20%;
+    color:#FFEDFF; 	   
+	padding: 3px 10px;
+    border: white 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+}
+footer p {
+	font-size:20px; 
+	font-family: courier; 
+	font-weight: bolder; 
+	padding-top: 10px;
+	text-align: center;
+}
+#direccion {
+	font-size:25px; 
+	font-weight: bolder;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 30px;
+    width: 25%;
+    display: block;
+    float:left;
+}
+#mapa {
+    text-align: center;
+    padding-top: 5px;
+    width: 45%;
+    display: block;
+    float:left;
+}
+#telefono {	      
+    width: 25%;
+    display: block;
+    float:left;
+}
+#telefono img {
+    padding-right: 10px;	
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+#horario {
+	font-size:20px; 	
+	font-weight: bolder;
+    padding-top: 20px;
+    text-align: justify;
+    width: 25%; 
+	float:left;	
+}
