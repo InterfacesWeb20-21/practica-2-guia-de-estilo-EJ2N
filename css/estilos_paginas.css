@@ -89,7 +89,7 @@ header .menu a:hover {
     background-image: linear-gradient(to bottom left, white, brown);
     color:white;   
 }
-#linea_vertical {
+.linea_vertical {
 	float:right;   	
 	border-left:1px solid grey;
     width:100%;	
@@ -101,7 +101,7 @@ section {
     text-align:left;      
     clear:right; 
 	width:25%;
-	background-image:#FAFAFA; 
+	background-color:white; 
 } 
 section p {	
     float:left; 
